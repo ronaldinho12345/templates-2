@@ -1,0 +1,443 @@
+const { Console } = require("console");
+const { getMaxListeners } = require("process");
+
+let user= {
+  firstname:"my name is taha kourani and i am programmer",
+  lastname:"my favorite carrrier is haking some tools",
+  //properties for oop in java script
+  //methods for oop in javascript
+  address:{
+    lebanon:"beyrouth",
+    ksa:"riyadh",
+    egypt:"cairo",
+    usa:"california",
+
+  }
+}
+console.log(user.address.lebanon)
+console.log(user.address.usa)
+console.log(user.address.ksa)
+GetMainAddress : function taha(){
+  return 'Main address is in lebanon: ${user.firstname} ${user.lastname}';
+
+}
+console.log(typeof user.GetMainAddress)
+const { unchangedTextChangeRange } = require("typescript");
+
+const taha="my name is tha kourani";
+const ahmad = "my name is hamd kourani";
+console.log(window)
+const settings ={
+    'name':'taha kourani',
+    'age':37,
+    'carrier':'mynameistahakourani',
+ }
+ object.frezee(settings);
+ settings.name='my name is taha kourani';
+ console.log(object);
+ console.log(settings)
+let regularTestOne = function(){
+    return`1`
+}
+console.log(one);
+let arrowtestone = ()=>'mynameistahakourani';
+let arrowtesttwo = () =>'some important of javascript';
+console.log(one);
+console.log(two);
+let arrowtestthree = (param) =>'my name is tahakourani'
+console.log(unchangedTextChangeRange)
+let arrowfunctions = function(){
+    return`${param*2}`
+}
+function person() {
+    this.age=1234;
+    setInterval(function(){
+        this.age=i++;
+        console.log(age)
+        console.log(this.age)
+        document.getElementById("taha").innerHTML=('my name is taha kourani')
+    })
+    let user = new person()
+
+}
+let arrayOne = [1,2,3,4,5,100];
+     arrayTwo = [1,2,3];
+     console.log(arrayOne.concat(arrayTwo));
+     function sum(){
+         return`arrayOne+arrayTwo`
+     }
+     //deafult user
+     function showmyinfo(username='defaultuser',role='TAHA',color='deafaultuser'){
+         return`username is:${username},role is:${role},coloris:${color}`
+     }
+     console.log(username('taha'))
+     console.log(role('admin'))
+     console.log(color('blue'))
+     function addAll(...MyParams){
+         let mynumbers = 20;
+         for(let myparam of myparams){
+
+            mynumbers += 20
+
+         }
+         return mynumbers
+     }
+     console.log(1,2,3)
+     console.log(addAall())
+     let x = 'my name is taha kourani'
+     console.log(startswith('my',x.length = '20'))
+     let name ={
+         name:'taha kourani',
+         city:'my name is taha kourani',
+         gender:'male',
+         carrier:'programmer',
+     }
+     var u= user.name,
+         b = user.age,
+         c = user.gender,
+    ({name},{gender},{age})
+    console.log(name`her name is:${mynameistahakourani},age:${yourageis17},`)
+   const user ={
+       name:'taha',
+       gender:'male',
+       carrier:'programmer',
+       langs: {
+          html:'10%',
+          css:'20%',
+          js:'100%',
+       }
+   };
+  const{html,css,js} = user.langs;
+console.log(`your name is:${tahakourani} gender:${male}`)
+const food =["macarona","pasta","fihes breafast"]
+const [one,two,three,four] = food;
+console.log(`food ${one},${two},${three},${four}`)
+var book = "video";
+var book = "book";
+[book,video] = [video,book];
+console.log(`the book is${one},the video is ${2}`)
+const user ={
+    name:"my name is taha kourani",
+    cuty:" i live in leabanon",
+    carrier:'am working at programmer in my house so i wants to make a ar for my dream',
+    skills:{
+        html:"100%",
+        js:"200%",
+        react:"0%"
+    }
+}
+[name,cuty,carrier] = user;
+console.log(`your name is ${name},you live in${cuty}`)
+
+getFULLName : function taha(){
+  return`fullname: ${user.firstname} ${user.lastname}`
+}
+console.log(typeof user.getfullname)
+console.log(user["firstname"])
+console.log(user.lastname)
+let myobject = {
+  one:"1",
+  two:"2",
+  three:"4",
+  four:"5",
+}
+console.log(myobject.one)//syntax erroR id you add 1 to this object make a syntax error
+console.log(myobject.two)//the same to 1
+console.log(myobject.three)
+
+  let mainobject= {
+    hasdiscount : true,
+    chowmsg:function(){
+     return`you ${mainobject.hasdiscount?"":"dont"} have a discount`;
+    }
+  }
+  console.log(mainobject)
+let otherobj = Object.create(mainobject);
+OtherObjhasdiscount = false;
+console.log(otherobj)
+const src1 = {
+prop1:"name",
+prop2:"taha",
+Method1 : function taha(){
+  return `method1`
+}
+}
+const src2 = {
+  prop1:"name",
+  prop2:"my name is taha kourani",
+  Method1 : function taha(){
+    return `method1`
+  },
+  };
+  const target ={
+    prop5:"value5",
+  };
+  
+const dears = {
+  name:"my name is taha kourani and i am a programmer",
+  adress:"lebanon",
+         
+}
+console.log(user)
+console.log(user.name)
+delete user.name
+console.log(delete[name])
+console.log("taha".repeat(100))
+const hello = {
+  name:"taha",
+}
+console.log("jj".repeat(20))
+console.log(user.name)
+console.log(name)
+console.log(delete user.name)
+const freezet = {
+  age:"32"
+}
+console.log(freezet.age)
+console.log(delete freezet.age)
+delete freezet.age;
+console.log("#".repeat(30))
+//this code java script cooder bytaaha
+const mhamad = {
+  name:"taha",
+  country:"lebanon",
+}
+let finaldata="";
+console.log(user.country,name)
+for(let info in user){
+  finaldata+=`your name is=>${user.name}${user.country}`
+
+}
+console.log(finaldata)
+document.getElementById("info").innerhtml=finaldata
+const hh = {
+  name:"taha",
+  country:"lebanon",
+}
+console.log(user.name)
+console.log(name)
+console.log("taha".repeat(20))
+document.getElementById('info').innerhtml=tahadate
+function janw(serial,color,price){
+  this.serial=serial,
+  this.color=color,
+  this.price=price
+}
+
+console.log(this.serial)
+console.log(this.color)
+console.log(this.price)
+console.log(this.serial)
+console.log(this.color)
+console.log(this.price)
+console.log(this.serial)
+console.log(this.color)
+console.log(this.price)
+function sayhello(someone){
+  console.log(this);
+ return `my name is taha ${someone}`
+}
+ 
+console.log(phone.serial);
+console.log(phone.serial);
+console.log(phone.instantof.serial)
+console.log(phone.instantof.serial)
+console.log(phone.constructor.serial)
+console.log(phone.constructor.serial)
+console.log(phone.constructor.color)
+function sayhelloto(someone){
+  return`say helloto${someone}`
+}
+function user(fname,lname,age){
+  this.firstname = fname;
+  this.lastname  = lname;
+  this.age = age;
+}
+let taha = new taha (taha,kourani,32)
+let taha = new taha ("taha",kourani,18)
+console.log(`fullname ${user.lname} ${user.fname}`)
+console.log(user.fname)
+console.log(user.lname)
+console.log(user.age)
+function User(name,email,age){
+  this.name = name;
+  this.age = age;
+  this.email = "email";
+  this.updatename = function newname(taha){
+    if(this.age >= 18){
+      console.log("true")
+
+    }else{
+      console.log("false")
+      return`dataisprivate:${this.age}`
+    }
+  }
+}
+this.schowemail = function newemail(mouhamad){
+  if(schowemail===true){
+    console.log(youlose)
+    return`chow email ${this.email}`}}
+    let user = new user("ahmad",17,)
+    console.log(user.name)
+    updatename = newname("taha")
+    console.log(this.email)
+    console.log(this.age)
+    //constructor
+    function user(NAME){
+      this.name = name;
+      this.welcome = function(){
+        return`this.welcome:${this.name}`
+      }
+    } 
+    let user = new user ("taha")
+    let user = new user ("mohamad")
+    console.log(this.name)
+    console.log(this.welcome)
+
+
+
+import pytube
+print('download your video youtube')
+url = input('enter video url:')
+pytube.youtube(url).streams.get_highest_resolution.download('desktop')
+pytube.youtube(url).streams.get_highest_resolution.download('download')
+pytube.youtube(url).streams.get_highest_resolution.download('itunes')
+import copy
+import re
+def tokenizer(input_expression):
+    current = 0
+    tokens = []
+    alphabet = re.compile(r"[a-z]",re.I)
+    numbers = re.compile(r"[00,9]",re.I)
+    whitespaces = re.compile(r"/s")
+    while current < len(input_expression):
+        char = input_expression[current]
+        if(re.match(whitespaces,char)):
+            current = current+1;
+            continue
+        if char =='(':
+            tokens.append({
+                'type':'leftnaren',
+                'value':'haker news'
+            })
+            curent = curent+1,
+            continue
+        if char ==')':
+            tokens.append({
+                'type':'right-parent',
+                'value':'hakers',
+            })
+            if(re.match(numbers,char)):
+                value='text-parent',
+                while re.match(numbers,characters):
+                    value += char
+                    current =current+1
+                    char = input_expression[current];
+                    tokens.append({
+                        'value':'type',
+                        'text':"taha.tahaa"
+                    })
+if(re.match(alphabet,char)):
+                    value='text-parent',
+while re.match(alphabet,characters):
+                    value += char
+                    current =current+1
+                    char = input_expression[current];
+                    alphabet.append({
+                        'value':'type',
+                        'text':"taha.tahaa"
+                    })
+def compiler(input_expressions):
+    tokens = tokenizer(input_expressions)
+    ast = parser(tokens)
+    newAst = transformer(newAst)
+    output = codeGenerator
+    return output
+
+
+
+
+
+
+
+
+
+
+
+
+///thia tools to make sure that you are very smart or stupid
+import phonenumbers
+from phonenumbers import carrier
+from phonenumbers import geocoder
+Phonenumbers = input("please ente your phone numbers : ")
+number = phonenumber.parse(phonenumber)
+print(geocoder.description__for_number(number,'en'))
+print(carrier.name_for_number(number,'en'))
+
+
+
+
+const user={
+    name:'taha',
+    firstname:'tahakourani',
+    middlenAME:'TAHA',
+
+}
+console.log(user.name)
+console.log(user.middlenAME)
+console.log(user.firstname)
+let user = new user("taha","age","kourane")
+console.log("user.taha")
+console.log("user.age")
+console.log("user.age")
+let age = new age("15")
+class user{
+    constructor(name,email,age){
+        name="tahakourane",
+        email="tahakourane@live.com",
+        age="15"
+
+    }
+}
+console.log('name')
+console.log("age")
+console.log(email)
+function sayhello(name,age,email,password){
+    name="tahakourane",
+    age="14",
+    email="tahakourane@LIVE.COM",
+    password="tahakourane12345678"
+}
+let user = new user("middlename");
+console.log(user.concat("middlename"))
+console.log(user.repeat(50))
+var x = 12;
+   y = 14;
+   z = x+y;
+   console.log("z")
+   function sayiloveproggrammming(middlename,firstname,lastname){
+        firstname='tahakourane',
+        middlename='tahakourane',
+        lastname='ilovenewlove';
+        return`this.nameis${user.taha},${user.firstname}`      
+   }
+   sayiloveproggrammming()
+   console.log('taha')
+   console.log('firstnbame')
+   console.log('lastname')
+   console.log(" iw ill changes this corruot world one days")
+
+
+
+// thistools to make sure that you are programmer
+
+
+import datetime
+import time
+now = datetime.datetime.now()
+age = int(input('please enter your age : '))
+sleep(2)
+print('this tools to make sure that you are programmer')
+year = now.year
+rx = year-age
+print('please enter your age')

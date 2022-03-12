@@ -1,0 +1,270 @@
+//this page has been programmed by taha
+//some days i hate this domain and another days i love her
+//some days i want to join ther group of programmer
+
+//const { groupCollapsed } = required("console");
+
+//global alert("")
+var taha = 50;
+ if(taha==50){
+   console.log("this bad")  
+ } else{
+   console.log("this good")
+ }
+ var x = 12;
+    var y = 13;
+    var z = x+y;
+     document.getElementById("test").innerHTML;
+     if (z==25){
+       console.log("donc this good now")
+     }  else{
+       console.log("donc this bad")
+     }
+     var x = 100;
+           y = 200;
+           taha = x+y;
+           if (taha==300){
+             console.log("this good")
+           } else{
+             console.log("this bad")
+           }
+           var tiketprice = 12;
+           var tiketchopping = 20;
+           if(tiketprice==12)(tiketchopping==20);{
+             console.log("thats good")
+             console.log("thats bad")
+           }
+       var t = 14;
+       g = 12;
+       c = t+g;
+       if(c == t+g){
+         console.log("thats good")
+       }
+       function sayhello(){
+         var myname="taha";
+         if(myname){
+           alert("hello" +myname+ "my name is taha ama programmer i live in lebnon")
+         }else{
+           alert("thats good")
+         }
+       }
+       function sayhi(){
+         "usestrict";
+         var myname = "tahakourani";
+         var myage = "32"+"12";
+         return "myage";
+       }
+       document.getElementById("test").innerHTML("sayhi()")
+
+       function sayhi(firstname,middlename,lastname){
+         return firstname + middlename + lastname;
+
+       }
+       document.getElementById("sayhi()").innerHTML=sayhi("ahmad","taha",'cr7')
+       var season = prompt("what is the best season to you")
+       switch(season){
+         case x:
+           "autumn";
+           alert("autumn is cold");
+         case y:
+           "summer";
+           alert("summer is cold");
+           case t:
+             "winter";
+             alert("winter function saybyis cold")
+       }
+function saybi(firstname,middlename,lastname){
+return firstname + lastname + middlename;
+}
+document.getElementById("test").innerHTML = ("taha", "khaled", "kourani")
+var myname = "taha";
+  if("myname == taha"){
+    console.log("you win")
+  }
+  var x = 1;
+  function changexto2(){
+    var X = 2;
+  }
+  var x = 2;
+  function changexto3(){
+    "usestrict";
+    var x = 3;
+  }
+  changexto2()
+  console.log("changexto2()")
+  changexto3()
+  console.log("changexto3")
+  //let x = 2;
+  //let y = 3;
+  //let z=x+y;
+  console.log("z")
+  function testparent(){
+    "usestrict";
+    var myname = "my name is taha";
+    console.log("myname")
+
+    function testchild(){
+      "usestrict";
+      var myage ="15"
+       console.log("myage")
+    }
+
+  }
+ testparent();
+ testchild();
+ var x = 5;
+     y = 6;
+     z = x+y;
+     if(z==11){
+       alert("you win")
+     }else{
+       alert('you lose')
+     }
+     function taha(lastname,firstname,middlename){
+       "usestrict";
+       console.log("hello user")
+       return lastname,firstname,middlename
+       function taha(){
+         "usestrict";
+         alert("you lose")
+       }
+     } document.getElementById("test").innerHTML = "taha"+"tahakourani"+"zeina";
+function sayhllo(lastname){
+  "usestrict";
+  var x=1;
+      y = 2;
+      z=x+y;
+    if(z==x+y){
+      console.log("you wn")
+    }
+}
+sayhello();
+$(function(){
+  //type your code her
+  var x = 1;
+  y = 2;
+  x =x+y;
+  if(x=3){
+    console.log("you ein")
+  }
+
+
+})
+var i=10;
+while(i>=10){
+  console.log("you win")
+  if(i<=20){
+    console.log('you lose')
+    i++;
+    
+    if(i==10){
+      break;
+      console.log('stund up now')
+    }
+  }
+}
+function saybi(){
+  console.log("hello uers")
+}
+var friends =[
+  "taha",
+  "taha",
+  "mhamad",
+  "taha",
+  "taha",
+  "taha",
+  "taha",
+
+
+];
+console.log("friends")
+var taha =friends.slice(2,3)
+ var anotherfriends =[
+   "taha",
+   "mhamad",
+   "taha",
+   "taha",
+   "taha",
+   "taja",
+
+]
+console.log("anotherfriends")
+var taha = anotherfriends.concat(-3,)
+console.log("anotherfriends")
+from selenium import webdriver
+from getpass import getpass
+from webdriver_manager.chrome import ChromeDriverManager 
+
+username = input('Pl Enter Your Facebook username: ')
+passwd = getpass('Enter your Facebook password: ')
+
+#driver = webdriver.Chrome(ChromeDriverManager().install)
+driver = webdriver.Chrome(executable_path='C:/chromedriver/chromedriver')
+driver.get('https://www.facebook.com')
+
+txtUsername = driver.find_element_by_id('email')
+txtUsername.send_keys(username)
+
+txtPasswd = driver.find_element_by_id('pass')
+txtPasswd.send_keys(passwd)
+
+btnLogin = driver.find_element_by_id('u_0_b')
+btnLogin.submit()
+from bs4 import BeautifulSoup
+import sys
+import requests
+import os
+import time
+import keyboard
+keyboard.press_and_release('fill','chift')    
+def getsource():
+    geta = input('enter websites url:')
+    print("yourwebsitesourcecode")
+    print('=====================================================')
+    getb = requests.get(geta)
+    soup = BeautifulSoup(getb.text,'lxml')
+    ask = input("***hello i am taha i want to code this tools because i want to be a programmer so i want to release the beautuful soup")
+    if ask == "y":
+        print(soup.pretify())
+    else:
+        var = soup.pretify()    
+        f = open('geta.html','m
+        f.write(var)
+        f.close()
+        getsource()
+
+
+
+
+
+
+import random
+value = random.uniform(1, 10000000)
+print(value)
+taha = random.randint(0, 10)
+print(taha)
+colors = ["balck","taha","programmer"]
+conclusion=random.choices(colors,k=10)
+print("conclusion")
+
+
+
+
+import pywhatkit
+pywhatkit.sendwhatmsg("+96171735478","how are you bro",20,52)
+
+
+
+
+
+///this tools taha
+import pyautogui as pt
+from time import sleep
+while True:
+    posXY = pt.position()
+    print(posXY,pt.pixel(posXY[0],posXY[1]))
+    sleep(2)
+    if posXY[0] == 0:
+        break
+    sleep(10)
+    print("this tools has been programmed by taha")

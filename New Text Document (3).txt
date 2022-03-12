@@ -1,0 +1,202 @@
+const { getArrayValue, app } = require("cli")
+
+function*orderbook(){
+window.alert('taha kourane you cliked to this point')
+console.log('tahakourane you cluked to this point')
+window.alert("taha kourane you cliked to this point")
+console.log("taha kourane you cliked to this point")
+window.alert('payments is done')
+console.log('payments is done')
+}
+let ordering = orderbook();
+console.log(orderbook)
+function*ordrings(){
+    yield "html";
+    yield "css";
+    yield "css";
+    yield "js";
+    yield "php";
+
+}
+let myskills = newskills()
+console.log(myskiils)
+console.log('tahakourani============================')
+console.log(skills)
+for(let skiiils of skills){
+    console.log("saynames")
+    if(numbers===20){
+        console.log('you nedd some space to chNGRS TJIS WORLS')
+        break;
+    }
+}
+function createinfinitnumbers(){
+    yield i++;
+    while(true){
+        yield i++;
+    }
+}
+let infiniteiterator = createinfiniteiterator();
+console.log(infiniteiterator.next())
+console.log(infiniteiterator.next())
+console.log(infiniteiterator.next())
+console.log(infiniteiterator.next())
+console.log(infiniteiterator.next())
+function*generatenumbers(){
+    yield "tahakourani";
+    yield "tahakourani";
+    yield "tahakourani";
+    yield "tahakourani";
+}
+
+console.log("generatenumbers")
+let genALL = genALL("tahakourani")
+console.log(genALL.next())
+console.log(genALL.next())
+console.log(genALL.next())
+console.log(genALL.next())
+//my name is taha kourane and i sam programmer so iw ant to changes this world and am students in liu 
+let oldarray = new Array (1000)
+console.log(oldarray)
+console.log(oldarray.length())
+let array = new Array(200,3000);
+console.log(array)
+console.log(array.length(taha))
+let mynames = "tahakourame";
+let ArrayOFLetters =Array.from(mynames)
+console.log(ArrayOFLetters)
+let mynumbers = newnumbers[1,2,3,4,4,4]
+console.log(mynumbers)
+//this tools to import to and export
+import {a,myarray,saihello} from './app.js';
+console.log(a)
+console.log(myarray)
+console.log(saihello)
+const a = 1000;
+function sayhello(name){
+    return`sayhello${name}`
+}
+import * as everythings from'./app.js';
+console.log(sayhello.apply())
+const a = "my name is taha kourane",
+const b = "my name is taha kourane and ia m programmer",
+function name(params) {
+   return`hello${name}` 
+}
+export default{
+    a,
+    b,
+    name,
+}
+const myobjects={
+    name:"taha"
+    
+}
+
+
+
+
+import cv2
+import time
+import datetime
+cap=cv2.VideoCapture(2)
+while True:
+  cv2.imshow("camera",frame)
+  if cv2.waitkeys(1) == ord('q'):
+      break
+cap.realease(),
+cv2.destroyALLWindows('how to make a script python to hak facebook automaticaly')
+
+
+
+
+from Instapy import instapy
+from instapy import smart_run
+session = Instapy(username='bebico2862',password='taha66',headless_browser=False)
+with smart_run(session):
+    session.set_relationchip_bounds(enbaled=True,delimit_by_numbers=True,max_followers=5000, min_following=30,min_followers=20)
+    session.follow_user_followers(['taha'],amount=100, randomize=False)
+    session.end()
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+            font-family: "popins", "sans serif";
+        }
+        
+        .conatiner {
+            width: 100%;
+            min-height: 100vh;
+            background: #5c539d;
+        }
+        
+        .container h2 {
+            color: #fff;
+            font-size: 32px;
+            padding: 50px;
+            text-align: center;
+        }
+        
+        .true_price {
+            width: 90%;
+            max-width: 1100px;
+            display: grid;
+            margin: auto;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-gap: 25px;
+        }
+        
+        .price_column {
+            background: #f1f1ff;
+            padding: 31% 32%;
+            text-align: center;
+        }
+        
+        .price_column p {
+            font-size: 22px;
+        }
+        
+        .price_column h3 {
+            font-size: 44px;
+            margin: 20px o 40px;
+            font-weight: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="conatainer">
+        <h2>please choose your plane</h2>
+        <div class="true_price">
+            <div class="price_column">
+                <p>starter</p>
+                <p>premium</p>
+                <p>advanced</p>
+                <h3>19$ / month</h3>
+                <ul>
+                    <li>1 websites</li>
+                    <li>10 gb Disk space</li>
+                    <li>free email address</li>
+                    <li>Basic web builder</li>
+                    <li>no ssl certificate</li>
+                    <li>limited support</li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
